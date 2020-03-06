@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MouseHover : MonoBehaviour
 {
-    public;
+   // public;
 
     // Start is called before the first frame update
     void Start()
