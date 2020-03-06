@@ -5,8 +5,10 @@ using UnityEngine.UI;
 
 public class MouseHover : MonoBehaviour
 {
+
     public TMPro.TextMeshProUGUI text;
     public GameObject canvas;
+
 
     // Start is called before the first frame update
     void Start()
