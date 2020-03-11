@@ -34,7 +34,7 @@ public class FireScript : MonoBehaviour
         }
     }
 
-    public void Fire(int helling)
+    public void Fire(float helling)
     {
         laser.SetActive(true);
         lifetime = 200;

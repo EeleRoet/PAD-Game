@@ -22,10 +22,10 @@ public class ShootScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Shoot(1);
+        Shoot(0.1f);
     }
 
-    public void Shoot(int helling)
+    public void Shoot(float helling)
     {
         float afstand = Screen.width / 2;
         float hoogte = afstand * helling;
